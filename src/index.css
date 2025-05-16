@@ -8,6 +8,9 @@ body{
     max-width: 600px;
 
 }
+a{
+    color: rgb(24, 18, 49);
+}
 
 h1{
     text-align: center;
