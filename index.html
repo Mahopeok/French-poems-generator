@@ -7,6 +7,7 @@
     <title>AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
  <header>
     <h1>AI French Poem Generator</h1>
 </header>
@@ -17,10 +18,11 @@
         autofocus 
         required
         autocomplete="off"
+        class="instruction"
         />
-        <button type="submit" id="submit">Generate Poem</button>
+        <button type="submit" class="submit-button" id="submit">Generate Poem</button>
     </form>
-    <div>
+    <div class="poem">
         The poem will be generated here
         <br/>
         And here
@@ -34,6 +36,7 @@
      is open-sourced on <a href="https://github.com/Mahopeok/French-poems-generator">Github</a> and hosted on <a href="https://frenchpoemaigenerator.netlify.app/">Netlify</a>.
 
 </footer>
+</div>
     <script src="src/index.js"></script>
 </body>
 </html>
